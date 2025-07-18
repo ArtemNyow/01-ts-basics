@@ -1,11 +1,11 @@
 
-interface Iproduct {
+interface IProduct {
 readonly id: number ;
     title: string;
     description?: string;
 };
 
-const product: Iproduct = {
+const product: IProduct = {
   id: 1,
   title: "Tablet",
   description: "Compact and fast",
